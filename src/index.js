@@ -151,7 +151,7 @@ server.get('/dia2/freqCaracter/:texto/caracter', (req,resp) =>{
     try{
         const{texto, caracter} = req.params;
         for(let count = 0; count < texto.length; count++){
-            if(texto[count] = catacter){
+            if(texto[count] = caracter){
                 resp.send({
                     qtd:count
                 })
